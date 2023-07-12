@@ -10,6 +10,11 @@
 *.userosscache
 *.sln.docstates
 
+# Large Files
+*.mp4
+*.mov
+*.MOV
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 

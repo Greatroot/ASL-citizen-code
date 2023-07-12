@@ -53,9 +53,9 @@ train_transforms = transforms.Compose([videotransforms.RandomCrop(224),
 test_transforms = transforms.Compose([videotransforms.CenterCrop(224)])
 
 #Update files and paths as needed
-video_base_path = '../../final_dataset/ASL_Citizen/videos/'
-train_file = '../../final_dataset/ASL_Citizen/splits/train.csv'
-test_file = '../../final_dataset/ASL_Citizen/splits/test.csv'
+video_base_path = '~/ASL_Gally/videos/'  # Changed for Gally Subset Data
+train_file = '~/ASL_Gally/splits/train.csv' # Changed for Gally Subset Data
+test_file = '~/ASL_Gally/splits/test.csv' # Changed for Gally Subset Data
 #Update names according to experiment number
 tag = 'may'
 dataset_name = "v1"
